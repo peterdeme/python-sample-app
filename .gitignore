@@ -1,0 +1,39 @@
+# IDE settings
+.vscode
+.idea
+*.swp
+.spyderproject
+.spyproject
+
+# Pyenv
+.python-version
+
+# OSX attribute store
+.DS_Store
+
+# Usual virtualenv paths
+env*/
+venv*/
+
+# Built package
+dist
+*.pyc
+*.so
+*.egg
+*.egg-info
+
+# Cache of different dev tools
+.mypy_cache
+__pycache__
+.pytest_cache
+.tox
+.ropeproject
+
+# Current test coverage
+.coverage
+
+# App config
+.env
+
+# Postgres data folder
+.pgdata

@@ -1,0 +1,19 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/python-3
+{
+	"name": "Python 3",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.pythonPath": "/root/.cache/pypoetry/virtualenvs/sampleapp-kuh0-qXr-py3.8/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.flake8Enabled": true
+	},
+	"appPort": "8000:8000",
+	"extensions": [
+		"ms-python.python",
+		"magicstack.magicpython",
+		"bungcip.better-toml"
+	]
+}
